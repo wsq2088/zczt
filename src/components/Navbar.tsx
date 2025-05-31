@@ -62,6 +62,11 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4">
+            {/* 返回主页链接 */}
+            <Link href="/" className="hover:text-gray-300">
+              返回主页
+            </Link>
+
             {/* 求职信息下拉菜单 */}
             <div className="relative">
               <button
